@@ -12,7 +12,9 @@ Strictly `Python 3.x` is required.
 
 Download `Python 3.x` installer from [here](https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe) and install it.
 
-[Python installation](python.png)
+![Python installation](python.png)
+
+Make sure the checkboxes at the bottom of the installation window are ticked. Then click INSTALL NOW.
 ### Debian (Ubuntu)
 
 Python 3.x comes installed in Ubuntu.
@@ -33,4 +35,26 @@ There are various ways of opening the terminal, known as CMD in windows. You can
  Follow the following instructions to install Jupyter.
 
   1. Do not be intimidated by the screen.
-  2. 
+  2. Type `pip install jupyter` on the terminal.
+  3. Click Enter and wait as jupyter installs.
+
+### Linux (Ubuntu)
+
+Open the terminal using `ctrl + alt + T`  
+First you need to install `pip` before using it.
+
+  1. Type `sudo apt install python3-pip` on the terminal.
+  2. Enter your user password and wait as `pip` installs.
+  3.Type `pip3 install jupyter` on the terminal and wait as jupyter installs.
+
+
+Just to verify that jupyter was properly installed, type:
+
+`jupyter notebook` on the terminal. A new tab should be opened on your default browser.
+
+
+Feel free to open an issue if you encounter any problems.
+
+Regards,   
+Kevin Nderitu
+
